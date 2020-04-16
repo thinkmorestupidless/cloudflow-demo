@@ -2,15 +2,35 @@
 
 ## Story
 
+Start with an empty GKE cluster
+
+```shell script
+kubectl cloudflow undeploy call-record-aggregator
+```
+
 ### Basic Outline of Cloudflow Project
 
 ### runLocal
 
 ### buildAndPublish
 
+Run the `buildAndPublish` step but don't wait for the publish stage to complete
+
+Show `verifyBlueprint` output to illustrate the functionality and reinforce the compile-time safety message
+
+Deploy the existing blueprint
+
+```shell script
+kubectl cloudflow deploy thinkmorestupidless/call-record-aggregator:2-bc2e49f
+```
+
+Explain the default properties
+
 ### Monitoring/Management Console
 
 ### Iteration/Evolution
+
+
 
 ### Monitoring/Management Scenario
 
