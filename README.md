@@ -21,7 +21,7 @@ Show `verifyBlueprint` output to illustrate the functionality and reinforce the 
 Deploy the existing blueprint
 
 ```shell script
-kubectl cloudflow deploy thinkmorestupidless/call-record-aggregator:2-bc2e49f
+kubectl cloudflow deploy thinkmorestupidless/call-record-aggregator:6-011f860
 ```
 
 Explain the default properties
@@ -30,7 +30,9 @@ Explain the default properties
 
 ### Iteration/Evolution
 
-
+```shell script
+kubectl cloudflow deploy thinkmorestupidless/call-record-aggregator:2-bc2e49f
+```
 
 ### Monitoring/Management Scenario
 
